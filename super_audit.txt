@@ -1,0 +1,430 @@
+Tugas pertama Anda adalah mengaudit INPUT sebelum mengaudit proyek.
+
+JANGAN langsung membaca source code.
+
+Analisis terlebih dahulu seluruh history chat di file chat_project_factory.txt
+
+Hitung:
+
+- Total baris
+- Total karakter
+- Total kata
+- Estimasi token
+- Jumlah keputusan (Decision)
+- Jumlah requirement
+- Jumlah perubahan requirement
+- Jumlah revisi
+- Jumlah project yang dibahas
+- Jumlah layer yang dibahas
+- Jumlah workflow
+- Jumlah artifact
+- Jumlah file yang disebut
+- Jumlah folder yang disebut
+- Jumlah AI yang digunakan
+- Jumlah tool yang digunakan
+
+Kemudian buat ringkasan:
+
+- Main Goal
+- Scope
+- Architecture
+- Pipeline
+- Build Flow
+- Governance
+- AI Runtime
+- Project Factory
+- Layer 1
+- Layer 2
+- Layer 3
+
+Berikan tingkat keyakinan (Confidence):
+
+95–100%
+80–94%
+60–79%
+<60%
+
+Jika confidence di bawah 90%, WAJIB jelaskan bagian mana yang belum dipahami.
+
+---------------------------------------------------------------------------------------
+
+Anda adalah Enterprise Architect, Project Auditor, dan AI Build Validator.
+
+Tugas Anda BUKAN memperbaiki proyek.
+
+Tugas Anda HANYA melakukan AUDIT terhadap proyek yang telah dibuat.
+
+Lakukan audit menyeluruh terhadap seluruh source code, dokumentasi, struktur folder, konfigurasi, dan artefak proyek.
+
+JANGAN membuat asumsi.
+
+Jika suatu komponen tidak ditemukan tulis:
+
+NOT_IMPLEMENTED
+
+Jika ditemukan tetapi belum lengkap tulis:
+
+PARTIAL_IMPLEMENTATION
+
+Jika lengkap tulis:
+
+PASS
+
+==========================================================
+AUDIT 1
+PROJECT STRUCTURE
+==========================================================
+
+Periksa:
+
+- Struktur folder
+- docs
+- source
+- workspace
+- tests
+- runtime
+- config
+- scripts
+- assets
+- templates
+- reference
+
+Berikan status setiap folder.
+
+==========================================================
+AUDIT 2
+LAYER 1
+AI PROJECT MANAGER OS
+==========================================================
+
+Audit seluruh komponen.
+
+Project Manager
+
+Chat
+
+AI Workspace Memory
+
+Knowledge Workspace
+
+Project Factory Launcher
+
+Source Explorer
+
+Benchmark
+
+Git Manager
+
+Timeline
+
+Reports
+
+Notification Center
+
+Project Settings
+
+Untuk setiap komponen tampilkan:
+
+Status
+
+Coverage
+
+Missing Component
+
+Recommendation
+
+==========================================================
+AUDIT 3
+LAYER 2
+PROJECT FACTORY
+==========================================================
+
+Periksa apakah tersedia:
+
+Input Center
+
+Reference Analysis
+
+FIRST_SPEC
+
+Review
+
+Generate 22 Documents
+
+Validation
+
+Compile FINAL_SPEC
+
+Operational Orientation
+
+Build Passport
+
+Freeze
+
+Factory Queue
+
+Status masing-masing.
+
+==========================================================
+AUDIT 4
+22 GENERATED DOCUMENTS
+==========================================================
+
+Periksa apakah tersedia.
+
+Constitution
+
+Object Dictionary
+
+Variable Dictionary
+
+Function Dictionary
+
+Pipeline Dictionary
+
+State Dictionary
+
+Event Dictionary
+
+Pattern Dictionary
+
+Business Rule Registry
+
+Dependency Matrix
+
+Interaction Matrix
+
+AI Build Guard
+
+Forbidden Rules
+
+Feature Registry
+
+Build Manifest
+
+Project Blueprint
+
+Build Checklist
+
+Test Registry
+
+Requirements
+
+RTM
+
+Operational Orientation
+
+Build Passport
+
+Untuk setiap dokumen tampilkan:
+
+Ada/Tidak
+
+Lengkap/Tidak
+
+Format benar/Tidak
+
+==========================================================
+AUDIT 5
+LAYER 3
+PROJECT BUILDER
+==========================================================
+
+Audit:
+
+Project Selector
+
+Build Planner
+
+AI Builder
+
+Source Generator
+
+Validation
+
+Test Center
+
+Reports
+
+Source
+
+==========================================================
+AUDIT 6
+AI INTEGRATION
+==========================================================
+
+Periksa:
+
+Claude
+
+OpenCode
+
+9Router
+
+Workspace
+
+Session
+
+Prompt
+
+Memory
+
+History
+
+==========================================================
+AUDIT 7
+GIT
+==========================================================
+
+Repository
+
+Commit
+
+Branch
+
+Push
+
+Pull
+
+PR
+
+Release
+
+==========================================================
+AUDIT 8
+COMPONENT COVERAGE
+==========================================================
+
+Hitung:
+
+Jumlah komponen yang seharusnya ada.
+
+Jumlah PASS
+
+Jumlah PARTIAL_IMPLEMENTATION
+
+Jumlah NOT_IMPLEMENTED
+
+Coverage
+
+==========================================================
+AUDIT 9
+BUILD READINESS
+==========================================================
+
+Berikan skor:
+
+Layer 1
+
+Layer 2
+
+Layer 3
+
+Integration
+
+AI Runtime
+
+Project Structure
+
+Overall Build Readiness
+
+==========================================================
+AUDIT 10
+MISSING COMPONENT
+==========================================================
+
+Daftar semua komponen yang belum ada.
+
+Urutkan berdasarkan prioritas.
+
+Critical
+
+High
+
+Medium
+
+Low
+
+==========================================================
+AUDIT 11
+DUPLICATE COMPONENT
+==========================================================
+
+Cari:
+
+Duplikasi
+
+Komponen tidak dipakai
+
+Dead Code
+
+Folder kosong
+
+==========================================================
+AUDIT 12
+SPECIFICATION COMPLIANCE
+==========================================================
+
+Apakah implementasi sesuai spesifikasi?
+
+Apakah ada penyimpangan?
+
+Apakah AI membuat fitur sendiri?
+
+Apakah ada hallucinasi?
+
+==========================================================
+OUTPUT
+==========================================================
+
+Output WAJIB dalam Markdown.
+
+Berikan tabel berikut.
+
+| Component | Status | Coverage | Notes |
+
+Kemudian berikan:
+
+Coverage Total
+
+Build Readiness
+
+Risk
+
+Recommendation
+
+JANGAN memperbaiki proyek.
+
+JANGAN menulis kode.
+
+JANGAN membuat fitur baru.
+
+HANYA AUDIT.
+----------------------------------------------------------------------------------
+Sebelum mencari konflik atau ambiguitas, lakukan klasifikasi seluruh informasi ke dalam kategori berikut:
+
+1. Business Workflow
+2. Layer Architecture
+3. Factory Pipeline
+4. Build Pipeline
+5. Project Lifecycle
+6. Specification Artifacts
+7. Generated Documents
+8. Runtime Outputs
+9. Review Gates
+10. Release Gates
+
+PERINGATAN:
+
+Jangan menganggap dua informasi bertentangan apabila berada pada kategori yang berbeda.
+
+Contoh:
+
+- Business Workflow ≠ Factory Pipeline
+- Specification Artifact ≠ Generated Document
+- Review Gate ≠ Runtime Output
+- Lifecycle ≠ Pipeline
+
+Hanya laporkan konflik jika terdapat dua definisi berbeda dalam kategori yang sama.
+
+
