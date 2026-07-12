@@ -1,0 +1,2 @@
+{"id": "20260711232022829758", "role": "user", "content": "Hello, this is a test message", "timestamp": "2026-07-11T23:20:22.829775", "tokens": 0}
+{"id": "20260711232022843817", "role": "assistant", "content": "Received your message: 'Hello, this is a test message'. This is a mock response. Claude Code integration pending.", "timestamp": "2026-07-11T23:20:22.843829", "tokens": 4}

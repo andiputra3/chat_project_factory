@@ -1,0 +1,14 @@
+[
+  {
+    "id": "20260711232020",
+    "name": "TestSession",
+    "description": "Test session",
+    "created_at": "2026-07-11T23:20:20.088427",
+    "updated_at": "2026-07-11T23:20:20.088435",
+    "status": "active",
+    "message_count": 0,
+    "token_usage": 0,
+    "summary": "",
+    "directory": "/workspace/project_factory/workspace/TestProject/chat/20260711232020"
+  }
+]
