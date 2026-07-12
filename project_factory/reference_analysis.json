@@ -1,0 +1,43 @@
+{
+  "files_found": [
+    "chat_project_factory.txt",
+    "project_factory.md",
+    "lanjutan_project_factory.md"
+  ],
+  "total_lines": 40104,
+  "total_words": 67347,
+  "requirements": [
+    {
+      "file": "chat_project_factory.txt",
+      "count": 143
+    },
+    {
+      "file": "project_factory.md",
+      "count": 113
+    },
+    {
+      "file": "lanjutan_project_factory.md",
+      "count": 96
+    }
+  ],
+  "decisions": [
+    {
+      "file": "chat_project_factory.txt",
+      "count": 74
+    },
+    {
+      "file": "project_factory.md",
+      "count": 22
+    },
+    {
+      "file": "lanjutan_project_factory.md",
+      "count": 36
+    }
+  ],
+  "layers": [
+    "Layer 1",
+    "Layer 2",
+    "Layer 3"
+  ],
+  "workflows": []
+}

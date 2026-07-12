@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""
+AI Project Factory - Main Runner
+Entry point for running the Flask application
+"""
+
+import os
+import sys
+
+# Add project root to path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from app import create_app
+
+if __name__ == '__main__':
+    app = create_app()
+    app.run(debug=True, host='0.0.0.0', port=5000)

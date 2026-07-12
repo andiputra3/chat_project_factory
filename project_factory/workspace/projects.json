@@ -1,0 +1,13 @@
+[
+  {
+    "id": "20260711232017",
+    "name": "TestProject",
+    "description": "Test project for CLI",
+    "created_at": "2026-07-11T23:20:17.547218",
+    "updated_at": "2026-07-11T23:20:17.547222",
+    "status": "active",
+    "directory": "/workspace/project_factory/workspace/TestProject",
+    "constitution": {},
+    "sessions": []
+  }
+]
